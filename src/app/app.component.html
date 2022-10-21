@@ -13,10 +13,10 @@
     <mat-sidenav #sideNav="matSidenav">
       <img class="avatar mat-elavation-z8" src="" alt="">
       <h4 class="name">Sources</h4>
-      <mat-divider></mat-divider>
+      <mat-divider color="red"></mat-divider>
       <mat-nav-list  *ngFor="let source of sources">
         <button (click)="searchSource(source)" mat-icon-button class="navItem">
-          <mat-icon class="navIcon">event_note</mat-icon>
+          <mat-icon class="navIcon">arrow_forward_ios</mat-icon>
           {{source.name}}
         </button>
       </mat-nav-list>

@@ -23,7 +23,8 @@
     display: flex;
     align-items: center;
     padding: 10px 10px 10px 10px;
-    font-size: 12px;
+    font-size: 15px;
+    
 }
 
 .example-icon {
@@ -44,3 +45,12 @@
     z-index: 2;
 }
 
+.mat-divider {
+    border-top-color: rgb(188, 188, 188);
+}
+
+.mat-nav-list {
+    &:hover {
+        background: rgb(200, 174, 212);
+    }
+}
