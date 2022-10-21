@@ -1,0 +1,46 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.example-sidenav-container {
+    /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
+       causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
+    flex: 1;
+}
+
+.name {
+    font-size: 20px;
+    margin: 20px 10px 20px 10px;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+}
+
+.example-icon {
+    margin-right: 12px;
+}
+
+.navIcon {
+    margin-right: 10px;
+}
+
+.mat-sidenav {
+    color: rgb(0, 0, 0);
+    background: rgb(229, 229, 229);
+}
+
+.example-toolbar {
+    position: fixed;
+    z-index: 2;
+}
+
