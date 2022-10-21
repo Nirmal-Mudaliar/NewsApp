@@ -2,7 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
-<img src="screenshots/ss1.JPG" alt="ss1" height="250px">   
+<img src="screenshots/ss1.JPG" alt="ss1" height="250px">  
+<img src="screenshots/ss2.JPG" alt="ss2" height="250px"> 
+<img src="screenshots/ss3.JPG" alt="ss3" height="250px"> 
+<img src="screenshots/ss4.JPG" alt="ss4" height="250px"> 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
